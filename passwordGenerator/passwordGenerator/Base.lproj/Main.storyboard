@@ -25,14 +25,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="269.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="nWZ-SN-ht8">
-                                                <rect key="frame" x="27" y="59" width="360" height="151"/>
+                                                <rect key="frame" x="23.5" y="59" width="367.5" height="151"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password Generator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0T-gO-3IM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="360" height="50.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="367.5" height="50.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="PfK-SS-zeu"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -98,20 +98,20 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xC-wi-mTx" userLabel="Middle Layer">
                                         <rect key="frame" x="0.0" y="274.5" width="414" height="269"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FY9-OS-bdh">
-                                                <rect key="frame" x="27" y="14.5" width="360" height="240"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FY9-OS-bdh">
+                                                <rect key="frame" x="27" y="42.5" width="360" height="184"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="VY6-KZ-52H" userLabel="1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="296" height="52.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="296" height="31"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dON-Qc-GNg" userLabel="Include Uppercase Switch">
-                                                                <rect key="frame" x="0.0" y="11" width="51" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                                 <connections>
                                                                     <action selector="switchValueCheck:" destination="BYZ-38-t0r" eventType="valueChanged" id="pJL-cg-HSU"/>
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uppercase Charecters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJn-Kc-UAa">
-                                                                <rect key="frame" x="99" y="14.5" width="197" height="24"/>
+                                                                <rect key="frame" x="99" y="3.5" width="197" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -119,16 +119,16 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-hx-I0O" userLabel="2">
-                                                        <rect key="frame" x="0.0" y="62.5" width="294.5" height="52.5"/>
+                                                        <rect key="frame" x="0.0" y="51" width="294.5" height="31"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIZ-Js-Mgh" userLabel="Include Lowercase Switch">
-                                                                <rect key="frame" x="0.0" y="11" width="51" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                                 <connections>
                                                                     <action selector="switchValueCheck:" destination="BYZ-38-t0r" eventType="valueChanged" id="o2L-bE-y6J"/>
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lowercase Charecters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ia-Zr-wbY">
-                                                                <rect key="frame" x="99" y="14.5" width="195.5" height="24"/>
+                                                                <rect key="frame" x="99" y="3.5" width="195.5" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -136,16 +136,16 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="JI5-l8-skS" userLabel="3">
-                                                        <rect key="frame" x="0.0" y="125" width="179.5" height="52.5"/>
+                                                        <rect key="frame" x="0.0" y="102" width="179.5" height="31"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EhG-W3-bW8" userLabel="Include Number Switch">
-                                                                <rect key="frame" x="0.0" y="11" width="51" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                                 <connections>
                                                                     <action selector="switchValueCheck:" destination="BYZ-38-t0r" eventType="valueChanged" id="kxS-Kw-bSm"/>
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numbers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eav-PS-A30">
-                                                                <rect key="frame" x="99" y="14.5" width="80.5" height="24"/>
+                                                                <rect key="frame" x="99" y="3.5" width="80.5" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -153,16 +153,16 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="4W0-gp-C2h" userLabel="4">
-                                                        <rect key="frame" x="0.0" y="187.5" width="175" height="52.5"/>
+                                                        <rect key="frame" x="0.0" y="153" width="175" height="31"/>
                                                         <subviews>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yYH-mR-HGO" userLabel="Include Symbols Switch">
-                                                                <rect key="frame" x="0.0" y="11" width="51" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
                                                                 <connections>
                                                                     <action selector="switchValueCheck:" destination="BYZ-38-t0r" eventType="valueChanged" id="qph-DQ-dJ4"/>
                                                                 </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symbols" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofU-mC-hfr">
-                                                                <rect key="frame" x="99" y="14.5" width="76" height="24"/>
+                                                                <rect key="frame" x="99" y="3.5" width="76" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -171,7 +171,6 @@
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="240" id="CZ2-Pz-jBJ"/>
                                                     <constraint firstAttribute="width" constant="360" id="W1u-uj-Dck"/>
                                                 </constraints>
                                             </stackView>

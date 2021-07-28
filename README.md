@@ -1,5 +1,5 @@
 # Password_Generator
-Password Generator - an iOS App made on Swift and UIKit, which helps the user to generate a password for their daily use.
+Password Generator ia a single page iOS app made with Swift and UIKit, which helps the user to generate a password for their daily use.
 
 User can also create Lisence key for their product using this app. It helps in creating random keys using multiple combination.
 

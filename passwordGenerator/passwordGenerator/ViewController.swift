@@ -8,16 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet var uppercaseSwitch: UISwitch!
     @IBOutlet var lowercaseSwitch: UISwitch!
     @IBOutlet var numbersSwitch: UISwitch!
     @IBOutlet var symbolsSwitch: UISwitch!
-    
     @IBOutlet var sliderLength: UISlider!
     @IBOutlet var sliderLengthDisplay: UILabel!
-    
     @IBOutlet var passwordDisplay: UITextField!
-    
     @IBOutlet var generateButton: UIButton!
     
     var uppercaseAlphabets = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
@@ -27,7 +25,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func switchValueCheck(_ sender: UISwitch) {
-
         if !lowercaseSwitch.isOn && !uppercaseSwitch.isOn && !numbersSwitch.isOn && !symbolsSwitch.isOn {
             generateButton.isEnabled = false
         } else {
@@ -40,23 +37,18 @@ class ViewController: UIViewController {
         
         var passwordCharSet = [String]()
         passwordDisplay.text = ""
-        
         if lowercaseSwitch.isOn {
             passwordCharSet += lowercaseAlphabets
         }
-        
         if uppercaseSwitch.isOn {
             passwordCharSet += uppercaseAlphabets
         }
-        
         if numbersSwitch.isOn {
             passwordCharSet += numbers
         }
-        
         if symbolsSwitch.isOn {
             passwordCharSet += symbols
         }
-        
         for length in 1...Int(sliderLength.value) {
             passwordDisplay.text! += String(passwordCharSet.randomElement()!)
         }
